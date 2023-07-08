@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { ProfileModule } from './profile/profile.module';
 import { MaterialsModule } from './materials/materials.module';
+import { AccountModule } from './account/account.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MaterialsModule } from './materials/materials.module';
     BrowserAnimationsModule,
     ProfileModule,
     MaterialsModule,
+    AccountModule,
     RouterModule.forRoot([
       {path:"", redirectTo:"login", pathMatch:'full'}
     ])

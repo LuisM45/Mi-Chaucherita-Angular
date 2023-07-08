@@ -4,6 +4,8 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCard, MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
 
 
 
@@ -18,6 +20,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,  
     MatInputModule, 
     MatButtonModule, 
+    MatCardModule,
+    MatDividerModule,
   ]
 })
 export class MaterialsModule { }
