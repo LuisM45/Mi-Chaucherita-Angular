@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MaterialsModule } from '../materials/materials.module';
 import { AccountCardComponent } from './account-card/account-card.component';
+import { NewAccountComponent } from './new-account/new-account.component';
 
 
 
@@ -11,13 +12,15 @@ import { AccountCardComponent } from './account-card/account-card.component';
   declarations: [
   
     DashboardComponent,
-       AccountCardComponent
+       AccountCardComponent,
+       NewAccountComponent
   ],
   imports: [
     CommonModule,
     MaterialsModule,
     RouterModule.forChild([
-      {path:"dashboard", component:DashboardComponent}
+      {path:"dashoard", component:DashboardComponent},
+      {path:"account/new", component:NewAccountComponent},
     ])
   ]
 })

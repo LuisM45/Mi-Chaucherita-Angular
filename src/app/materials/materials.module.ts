@@ -6,7 +6,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCard, MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
-
+import {MatSelectModule} from '@angular/material/select';
 
 
 
@@ -22,6 +22,7 @@ import {MatDividerModule} from '@angular/material/divider';
     MatButtonModule, 
     MatCardModule,
     MatDividerModule,
+    MatSelectModule,
   ]
 })
 export class MaterialsModule { }

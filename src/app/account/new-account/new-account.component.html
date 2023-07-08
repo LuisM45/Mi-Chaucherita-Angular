@@ -1,0 +1,27 @@
+<div class="screen-wrapper">
+    <div class="body-piece">
+        <img src="assets/placeholder.png" class="round" height="235" width="235">
+        <form> 
+            <mat-form-field appearance="fill">
+                <mat-label>Usuario</mat-label>
+                <input matInput placeholder="eg: Bob123">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Tipo de Cuenta</mat-label>
+                <mat-select>
+                    <mat-option>Ingreso</mat-option>
+                    <mat-option>Egreso</mat-option>
+                    <mat-option>Ahorros</mat-option>
+                    <mat-option>Corriente</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <div>
+                <button type="button" mat-button color="primary">Cancelar</button>
+                <button type="button" mat-raised-button color="primary">Nuevo</button>
+            </div>
+        </form>
+        <div>
+            Eres nuevo? <button mat-button color="primary">Registrate</button>
+        </div>
+    </div>
+</div>
