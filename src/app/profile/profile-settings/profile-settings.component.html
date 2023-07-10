@@ -1,0 +1,50 @@
+<div class="screen-wrapper">
+    <div class="body-piece">
+        <div class="options-head">
+            <img src="assets/placeholder.png" class="round" height="160" width="160">
+            <div class="flex-column p8 w100">
+                <h1>@Bob123</h1>
+                <mat-form-field appearance="fill">
+                    <mat-label>Correo Electrónico</mat-label>
+                    <input matInput placeholder="bob123@example.com" value="bob123@example.com">
+                </mat-form-field>
+            </div>
+        </div>
+        
+        <div class="options-body">
+            <mat-form-field appearance="fill">
+                <mat-label>Nueva Contraseña</mat-label>
+                <input matInput type="password" placeholder="••••••••">
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Confirmar Contraseña</mat-label>
+                <input matInput type="password" placeholder="••••••••">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Zona Horaria</mat-label>
+                <mat-select>
+                    <mat-option>UTC</mat-option>
+                    <mat-option>UTC+1</mat-option>
+                    <mat-option>UTC+2</mat-option>
+                    <mat-option>UTC+3</mat-option>
+                    <mat-option>...</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>País</mat-label>
+                <mat-select>
+                    <mat-option>Algeria</mat-option>
+                    <mat-option>Ecuador</mat-option>
+                    <mat-option>Estados Unidos</mat-option>
+                    <mat-option>Colombia</mat-option>
+                    <mat-option>...</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <button type="button" mat-stroked-button color="primary">Exportar</button>
+        </div>
+        <div class="w100 flex-distribute">
+            <button type="button" mat-button color="primary">Cancelar</button>
+            <button type="button" mat-raised-button color="primary">Guardar</button>
+        </div>
+    </div>
+</div>
